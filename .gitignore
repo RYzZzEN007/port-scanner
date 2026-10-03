@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.json
+*.html
+!docs/*.html
+!docs/*.json
+reading/
+demo.cast
