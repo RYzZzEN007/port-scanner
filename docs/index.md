@@ -12,12 +12,12 @@ Dhruv Choudhary.
 ## Demo
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.17.0/dist/bundle/asciinema-player.css" />
-<div id="demo"></div>
+<div id="demo-player"></div>
 <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.17.0/dist/bundle/asciinema-player.min.js"></script>
 <script>
   AsciinemaPlayer.create(
     'https://asciinema.org/a/GneSzREVczsYDRnB.cast',
-    document.getElementById('demo'),
+    document.getElementById('demo-player'),
     { autoPlay: true, loop: true, controls: true }
   );
 </script>
