@@ -11,8 +11,19 @@ Dhruv Choudhary.
 
 ## Demo
 
-A recorded terminal session of the scanner running:
-<https://asciinema.org/a/GneSzREVczsYDRnB>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.17.0/dist/bundle/asciinema-player.css" />
+<div id="demo"></div>
+<script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.17.0/dist/bundle/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create(
+    'https://asciinema.org/a/GneSzREVczsYDRnB.cast',
+    document.getElementById('demo'),
+    { autoPlay: true, loop: true, controls: true }
+  );
+</script>
+
+If the player does not load, watch the recording
+[on asciinema.org](https://asciinema.org/a/GneSzREVczsYDRnB).
 
 ## What it does
 
